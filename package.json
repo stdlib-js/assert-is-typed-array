@@ -49,7 +49,8 @@
     "@stdlib/assert-has-float64array-support": "^0.0.x",
     "@stdlib/utils-constructor-name": "^0.0.x",
     "@stdlib/utils-function-name": "^0.0.x",
-    "@stdlib/utils-get-prototype-of": "^0.0.x"
+    "@stdlib/utils-get-prototype-of": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.0.x",
