@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,26 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { TypedArray } from '@stdlib/types/array';
 
 /**
-* Test if a value is a typed array.
+* Tests if a value is a typed array.
 *
-* @module @stdlib/assert-is-typed-array
+* @param value - value to test
+* @returns boolean indicating if a value is a typed array
 *
 * @example
-* var Int8Array = require( '@stdlib/array-int8' );
-* var isTypedArray = require( '@stdlib/assert-is-typed-array' );
+* var Int8Array = require( `@stdlib/array/int8` );
 *
 * var bool = isTypedArray( new Int8Array( 10 ) );
 * // returns true
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function isTypedArray( value: any ): value is TypedArray;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = isTypedArray;
