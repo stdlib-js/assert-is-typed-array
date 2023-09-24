@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isTypedArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array@esm/index.mjs';
+import isTypedArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array@v0.1.0-esm/index.mjs';
 ```
 
 #### isTypedArray( value )
@@ -84,7 +84,7 @@ import Int32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-int32@esm/in
 import Uint32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint32@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import isTypedArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array@esm/index.mjs';
+import isTypedArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-typed-array@v0.1.0-esm/index.mjs';
 
 var arr = new Int8Array( 10 );
 var bool = isTypedArray( arr );
